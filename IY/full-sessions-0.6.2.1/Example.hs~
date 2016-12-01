@@ -1,0 +1,19 @@
+{-# LANGUAGE FlexibleContexts, RebindableSyntax, NoMonomorphismRestriction #-}
+
+import Control.Concurrent.FullSession
+import Prelude hiding (return,(>>=),fail,(>>))
+
+return = ireturn
+(>>=) = (>>>=)
+(>>) = (>>>)
+fail = fail
+
+server c = do x <- recv c
+              io $ (putStrLn $ x)
+              return ()
+
+client c = send c "Hello"
+
+go = do c <- new
+        forkIOs (server c)
+        client c

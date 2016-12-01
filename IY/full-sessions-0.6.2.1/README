@@ -1,0 +1,13 @@
+full-sessions: a monad for protocol-typed network programming
+
+visit:
+http://www.agusa.i.is.nagoya-u.ac.jp/person/sydney/full-sessions.html
+
+INSTALL:
+to install for a local user:
+$ ./Setup.hs configure
+$ ./Setup.hs build
+$ ./Setup.hs install
+
+part of example depends on Tov's ixdopp. in case you need it, 
+$ cabal install ixdopp
