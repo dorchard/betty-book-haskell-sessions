@@ -194,13 +194,12 @@ serverEqT c = do
     close d
 
 clientEqT c = do
-    c <- send c (42 :: Int)
-    _ <- send c 53
+    c <- send c 42
     c <- send c 53
-    d <- fork (\d -> do
-        c <- send c d
+    d <- fork (\d' -> do
+        c <- send c d'
         close c)
-    (r :: Bool, d) <- recv d
+    (r, d) <- recv d
     putStrLn ("Result: " ++ show r)
     close d
 
