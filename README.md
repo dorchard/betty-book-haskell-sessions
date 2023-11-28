@@ -1,6 +1,6 @@
 # Session types in Haskell
 
-The following repository collects the examples from the book chapter [Session Types with Linearity in Haskell](https://kar.kent.ac.uk/66632/1/RP_9788793519817C10.pdf) by Dominic Orchard and Nobuko Yoshida, published as part of the book [Behaviour Types: from Theory to Tools] edited by Simon Gay and António Ravara, published by River 2017. 
+The following repository collects the examples from the book chapter [Session Types with Linearity in Haskell](https://kar.kent.ac.uk/66632/1/RP_9788793519817C10.pdf) by Dominic Orchard and Nobuko Yoshida, published as part of the book [Behavioural Types: from Theory to Tools](https://www.riverpublishers.com/research_details.php?book_id=439#:~:text=As%20a%20survey%20of%20the,graduate%20students%20and%20software%20developers.) edited by Simon Gay and António Ravara, published by River 2017. 
 
 Cite this chapter with
 
