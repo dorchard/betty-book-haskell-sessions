@@ -1,4 +1,25 @@
-# betty-book-haskell-sessions
+# Session types in Haskell
+
+The following repository collects the examples from the book chapter [Session Types with Linearity in Haskell](https://kar.kent.ac.uk/66632/1/RP_9788793519817C10.pdf) by Dominic Orchard and Nobuko Yoshida, published as part of the book [Behaviour Types: from Theory to Tools] edited by Simon Gay and António Ravara, published by River 2017. 
+
+Cite this chapter with
+
+```
+@article{orchard2017session,
+  title={Session types with linearity in Haskell},
+  author={Orchard, Dominic and Yoshida, Nobuko},
+  journal={Behavioural Types: from Theory to Tools},
+  pages={219},
+  year={2017},
+  publisher={River Publishers}
+}
+```
+
+## Repostitory contents
+
+Examples of capturing session types in Haskell due to a number of approaches
+
+* pre-sessions - Provides the encoding of simple session types without linearity as described by this book chapter.
 
 * NT - Neubauer and Thiemann [2004] give an encoding of first-order single-channel session types with recursion; A
 recreation of the code in their paper, with some bug fixes is include.
